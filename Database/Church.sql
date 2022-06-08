@@ -1,3 +1,6 @@
+-- Queries to create tables used by the website
+
+-- login and user table used during registration of the user. 
 CREATE TABLE IF NOT EXISTS `login` (
     `login_id` INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     `login_email` varchar(50) DEFAULT NULL,
@@ -17,6 +20,7 @@ CREATE TABLE IF NOT EXISTS `users` (
     FOREIGN KEY (`user_login_id`) REFERENCES `login` (`login_id`)
 );
 
+-- Image table used to input and present the users profile picture.
 CREATE TABLE IF NOT EXISTS `image`(
     image_id integer NOT NULL AUTO_INCREMENT,
     image_url text NOT NULL,
