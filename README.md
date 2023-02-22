@@ -15,11 +15,11 @@ To get a local copy up and running follow these simple example steps.
 
 In your terminal, navigate to your current directory and run this code
 
-`git@github.com:markxkamau/ChurchProj.git`
+`https://github.com/markxkamau/Church_Website.git`
 
 Locate the directory in your file explorer
 
-`cd ChurchProj`
+`cd Church_Website`
 
 ### Installations
 
