@@ -15,7 +15,7 @@ To get a local copy up and running follow these simple example steps.
 
 In your terminal, navigate to your current directory and run this code
 
-`https://github.com/markxkamau/Church_Website.git`
+`git clone https://github.com/markxkamau/Church_Website.git`
 
 Locate the directory in your file explorer
 
